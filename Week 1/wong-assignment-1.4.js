@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  Assignment 1.4.js
+; Author: Devan Wong
+; Date:   29 May 2020
+; Description: Creating variables and displaying then in the console
+;===========================================
+*/
+
 var firstName;
 var lastName;
 var age;
