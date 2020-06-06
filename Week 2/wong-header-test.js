@@ -7,6 +7,6 @@
 ;===========================================
 */
 
-const header = require('./wong-header.js');
+const header = require('../wong-header.js');
 
 console.log(header.display('Devan', 'Wong', 'Assignment 2.2'));
