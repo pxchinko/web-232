@@ -1,7 +1,7 @@
 // header
 const header = require('../wong-header.js');
 console.log(header.display('Devan', 'Wong', 'Assignment 2.4'))
-
+console.log('\n');
 
 // add greeting and a function with
 function fullName (firstName, lastName) {
@@ -20,8 +20,8 @@ function dateWriter (year, month, date){
 };
 
 //num as a value
-let num = 2.12334423;
 //tofixed how many # should show after the decimal
+let num = 2.12334423;
 let numOfPos = 2;
 //function to to return a number and its fixed positions.
 function formatNumber (num, numOfPos){
@@ -32,7 +32,7 @@ function formatNumber (num, numOfPos){
 //integer are whole numbers
 function convertToInt (str) {
   var newString = parseInt(str);
-  return "I am " + newString + " years old";
+  return "I am " + newString + " years old ";
 }
 //function to take a string and return a float number
 //float number can return decimals
@@ -43,7 +43,8 @@ function convertToFloat (str) {
 
 //output
 console.log(fullName("Devan", "Wong"));
-console.log(dateWriter());
-console.log(formatNumber(33.614,1));
-console.log(convertToInt("29.123123"));
-console.log(convertToFloat("100000.29"));
+console.log('\n');
+console.log(dateWriter() + formatNumber(33.614,1));
+console.log('\n');
+console.log(convertToInt("29.123123") + convertToFloat("100000.29"));
+
