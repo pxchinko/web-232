@@ -39,4 +39,4 @@ getValue(vehicles, "Motorcycle");
 //finding to see is the string matches the array
 console.log("");
 console.log("-- SELECTED VALUE --");
-getValue(vehicles, "Truck");
+getValue(vehicles, "Bus");
